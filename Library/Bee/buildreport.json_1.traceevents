@@ -1,0 +1,694 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698811252794011, "dur": 695520, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811252794202, "dur": 15536, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811252809739, "dur": 32305, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811252842046, "dur": 331768, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811253173815, "dur": 300961, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811253474778, "dur": 14753, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811253489936, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1698811252911749, "dur": 251121, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811252912446, "dur": 33503, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811253151365, "dur": 3186, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811253154552, "dur": 8313, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811253155035, "dur": 7288, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811253166012, "dur": 930, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698811253165459, "dur": 1498, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811253490030, "dur": 147, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698811253208895, "dur":1102, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253210002, "dur":78, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698811253210111, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698811253210128, "dur":499, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698811253210642, "dur":503, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253211145, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253463751, "dur":297, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464050, "dur":138, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464188, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464190, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464236, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464241, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464261, "dur":35, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464296, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464302, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464304, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464309, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464311, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464315, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464316, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464321, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464322, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464326, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464327, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464331, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464333, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464338, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464339, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464343, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464344, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464349, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464350, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464355, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464356, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464360, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464361, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464366, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464367, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464372, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464373, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464378, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464379, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464383, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464385, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464389, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464390, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464394, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464395, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464399, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464400, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464404, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464405, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464410, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464411, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464417, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464430, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253464452, "dur":1413, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698811253210560, "dur":590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253211151, "dur":3928, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253215098, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698811253215099, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253215175, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698811253215179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253215799, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698811253217247, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698811253217278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253217531, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698811253219446, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253219470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253219473, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220214, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220243, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220862, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253220902, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253221524, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253221550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253221553, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253222371, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253222411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253222415, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253223765, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253223796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253223800, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253225218, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253225252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253225255, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253226504, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253226546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253226549, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253227745, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253227774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253227779, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253228781, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253228811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253228831, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253229983, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253230015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253230018, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253231192, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253231223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253231225, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253232325, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253232363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253232368, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253233390, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253233423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253233426, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253234492, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253234526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253234547, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253235712, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253235740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253235742, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253237255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253237292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253237295, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253238481, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253238508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253238525, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253239801, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253239845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253239849, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253241375, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253241418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253241422, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253242934, "dur":31653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253274590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253274596, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253276045, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253276084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253276089, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253277177, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253277220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253277224, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253278269, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253278302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253278307, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253279357, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253279390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253279394, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253281853, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253281887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253281891, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253282837, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253282875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253282879, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253284015, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253284050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253284054, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253286861, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253286891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253286894, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253287944, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253287992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253288467, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698811253289726, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253289772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253290141, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253291028, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253291137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253291357, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253292176, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698811253292211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253292215, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698811253295605, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253295709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253295713, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253296693, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253297401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253297405, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698811253298298, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698811253298340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253298344, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698811253301999, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698811253302041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698811253302045, "dur":2863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698811253304950, "dur":158801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253210615, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253211161, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253215105, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698811253215199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253219313, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698811253219945, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253219983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253219988, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253220691, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253220718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253220721, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253221352, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253221375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253221378, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253222096, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253222131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253222135, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253223215, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253223244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253223247, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253224486, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253224527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253224533, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253225637, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253225670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253225675, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253226966, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253227027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253227030, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253228042, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253228089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253228093, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253229036, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253229067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253229070, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253230197, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253230234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253230238, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253231552, "dur":19336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253250891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253250897, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253251760, "dur":82380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253334143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698811253334149, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698811253335316, "dur":128456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253210585, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253211153, "dur":3932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253215098, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1698811253215186, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253216460, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1698811253217288, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/zxing.unity.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253217317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253217516, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/zxing.unity.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253218312, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253218343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253218383, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253219100, "dur":27295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253246398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253246404, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253247321, "dur":35263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253282592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253282600, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253283666, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/MySql.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253283735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253283740, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/MySql.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253284788, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.West.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253284824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253284828, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.West.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253285930, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.MidEast.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253285982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253285987, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.MidEast.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253287402, "dur":151324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253438731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698811253438740, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698811253439759, "dur":24023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698811253211025, "dur":209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698811253211235, "dur":3880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698811253215116, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698811253215281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698811253304973, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698811253308628, "dur":155127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253210638, "dur":529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253211167, "dur":3917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253215098, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1698811253215240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253251091, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1698811253252011, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698811253252052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253252057, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698811253252953, "dur":67449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698811253320404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698811253320409, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698811253321777, "dur":141997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698811253210661, "dur":513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698811253211174, "dur":3938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698811253215115, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698811253215289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698811253305434, "dur":9961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698811253315445, "dur":148317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698811253210687, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698811253211179, "dur":3924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698811253215103, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698811253215254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698811253259699, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698811253260678, "dur":47968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698811253308651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698811253308659, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698811253309817, "dur":153939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698811253210708, "dur":475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698811253211183, "dur":3916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698811253215105, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698811253215245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698811253255060, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698811253255937, "dur":143757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698811253399701, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698811253399710, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698811253400847, "dur":62930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253210730, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253211187, "dur":3913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253215101, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698811253215211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253229268, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698811253230195, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253230226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253230231, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253231424, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253231450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253231454, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253232538, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253232582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253232585, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253233689, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253233717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253233720, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253234655, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253234684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253234687, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253236018, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253236044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253236047, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253237497, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253237522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253237525, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253238943, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253238996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253239000, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253240188, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253240216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253240219, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253241544, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253242002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253242006, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253243223, "dur":29422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253272649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253272656, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253274198, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253274233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253274237, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253276359, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253276416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253276420, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253277976, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253278010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253278014, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253279078, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253279112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253279116, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253280382, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253280439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253280443, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253281434, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253281470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253281474, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253282941, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253282975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253282979, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253284422, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253284462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253284466, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253285630, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.Rare.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253285669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253285673, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.Rare.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253286870, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.CJK.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253286899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253286902, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.CJK.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253288163, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/UnityOpenXRHands.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253288204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253288484, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/UnityOpenXRHands.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253289526, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253289569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253289666, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698811253291550, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1698811253291594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253291650, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1698811253292742, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698811253292783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698811253292787, "dur":170889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698811253463710, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1698811253463711, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253210757, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253211190, "dur":3898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253215099, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698811253215206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253226175, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698811253227167, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253227209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253227213, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253228799, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253228830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253228833, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253229904, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253229944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253229948, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253230916, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253230961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253230964, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253231975, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253232014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253232017, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253232944, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253232975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253232978, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253234066, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253234097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253234102, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253235369, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253235414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253235418, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253237057, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253237093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253237096, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253238222, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253238262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253238268, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253239683, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253239732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253239736, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253241229, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253241259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253241262, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253242886, "dur":88493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253331432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698811253331438, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698811253332135, "dur":131634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253210780, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253211193, "dur":3918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253215112, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253215256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253260389, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253261535, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253262660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253262666, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253263688, "dur":1280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253264971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253264994, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253265867, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253266756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253266762, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253267705, "dur":30492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253298201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253298207, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698811253299257, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698811253299551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253299555, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698811253302642, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698811253302754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698811253302758, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698811253304536, "dur":159216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698811253210797, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698811253211198, "dur":3889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698811253215097, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698811253215297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698811253306239, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698811253307610, "dur":156176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698811253210817, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698811253211202, "dur":3888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698811253215108, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1698811253215238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698811253247354, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1698811253248203, "dur":81760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698811253329967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698811253329973, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698811253330887, "dur":132902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253210851, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253211205, "dur":3900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253215109, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1698811253215263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253260472, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1698811253261763, "dur":35128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698811253296895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253296901, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698811253297838, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1698811253297902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253297906, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1698811253301930, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1698811253301973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253301976, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1698811253304379, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1698811253304516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698811253304520, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1698811253306095, "dur":157654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698811253210872, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698811253211209, "dur":3908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698811253215117, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience.exe" }}
+,{ "pid":12345, "tid":15, "ts":1698811253215291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698811253305869, "dur":4298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience.exe" }}
+,{ "pid":12345, "tid":15, "ts":1698811253310224, "dur":153552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253210944, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253211222, "dur":3886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253215109, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1698811253215225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253239889, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1698811253240865, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253240896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253240899, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253242480, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253243045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253243049, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253244219, "dur":27794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Hands.Samples.VisualizerSample.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253272017, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253272025, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Hands.Samples.VisualizerSample.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253273579, "dur":52652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253326236, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698811253326244, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698811253327417, "dur":136362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253210893, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253211212, "dur":3884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253215097, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1698811253215204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253222137, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1698811253223236, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253223270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253223286, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253224845, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253224877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253224880, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253226072, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253226112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253226117, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253227441, "dur":105975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253333419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698811253333424, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698811253334351, "dur":129443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253210923, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253211218, "dur":3896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253215115, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253215275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253260854, "dur":13114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253274012, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253274052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253274057, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253275230, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253275268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253275273, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253276248, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253276286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253276290, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253277560, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253277616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253277621, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253278704, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253278736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253278740, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253279692, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253279736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253279740, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253281999, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253282033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253282037, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253282971, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253283012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253283016, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253284392, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253284434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253284438, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253285707, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.Other.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253285748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253285751, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/I18N.Other.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253287121, "dur":70726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253357850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698811253357856, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698811253358695, "dur":105088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253210963, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253211225, "dur":3881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253215108, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1698811253215254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253259315, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1698811253260394, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698811253260942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253260947, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698811253262300, "dur":47699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698811253310004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698811253310012, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698811253311470, "dur":152315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253210985, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253211228, "dur":3873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253215102, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1698811253215220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253236412, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1698811253237403, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253237446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253237450, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253238762, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253238805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253238811, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253240507, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253240543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253240548, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253241981, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253242608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253242613, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253243749, "dur":79792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253323544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698811253323550, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698811253324836, "dur":138944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698811253211005, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698811253211231, "dur":3879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698811253215113, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":21, "ts":1698811253215227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698811253243634, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":21, "ts":1698811253244803, "dur":79518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698811253324323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698811253324329, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698811253325186, "dur":138581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253210604, "dur":553, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253211157, "dur":3932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253215098, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1698811253215275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253269048, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1698811253270946, "dur":1710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":22, "ts":1698811253272660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253272665, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":22, "ts":1698811253273821, "dur":75348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":22, "ts":1698811253349174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698811253349183, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":22, "ts":1698811253350505, "dur":113268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253211045, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253211237, "dur":3855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253215099, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":23, "ts":1698811253215214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253232497, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":23, "ts":1698811253233361, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253233391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253233394, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253234472, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253234499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253234502, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253235598, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253235638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253235642, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253236843, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253236876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253236880, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253237849, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253237953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253237959, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253239471, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253239515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253239520, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253241070, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253241111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253241115, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253242590, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253243149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253243152, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253244434, "dur":75953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Hands.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253320391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698811253320400, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.XR.Hands.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698811253321702, "dur":142061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253211067, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253211242, "dur":3852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253215099, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1698811253215247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253258829, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1698811253259843, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253260432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253260437, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253261855, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253262559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253262564, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253263569, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253264286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253264292, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253265232, "dur":28065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253293300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253293305, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":24, "ts":1698811253295150, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":24, "ts":1698811253295184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698811253295188, "dur":20187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/SW01/Desktop/VR_Ex/VR_Experience_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":24, "ts":1698811253315418, "dur":148340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698811253466987, "dur":1547, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698811253490227, "dur": 620, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698811253489925, "dur": 935, "ph": "X", "name": "Write chrome-trace events", "args": {} },
